@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 800px;
+    height: 900px;
     background-image: url("https://c4.wallpaperflare.com/wallpaper/935/875/758/earth-beautiful-backgrounds-desktop-wallpaper-preview.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -128,7 +128,7 @@ input:hover {
 
 @media (max-width:550px) {
     .container {
-        font-size: 16px;
+        font-size: 14px;
     }
     .search-wrapper button {
         font-size: 14px;
@@ -137,7 +137,7 @@ input:hover {
 
 @media (min-width:550px) and (max-width:760px) {
     .container {
-        font-size: 18px;
+        font-size: 16px;
     }
     .search-wrapper button {
         font-size: 15px;
@@ -147,12 +147,14 @@ input:hover {
 @media (min-width:540px) and (max-width:750px) {
     .container {
         margin-top: 120px;
+        font-size: 18px;
     }
 }
 
 @media (min-width:750px) and (max-width:1034px) {
     .container {
         margin-top: 180px;
+        font-size: 18px;
     }
     body {
         height: 960px;
@@ -162,5 +164,6 @@ input:hover {
 @media (min-width:1034px) {
     body {
         height: 800px;
+        font-size: 19px;
     }
 }
